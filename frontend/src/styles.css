@@ -1,0 +1,56 @@
+/* styles.css */
+.custom-bg {
+  background-color: #403cd5;
+  /* Cambia este valor al color que prefieras */
+}
+
+.btn-enter {
+  background-color: #403cd5; /* Cambia este valor al color que prefieras */
+  color: white;
+}
+
+.btn-custom {
+  background-color: #76ddc5af; /* Cambia este valor al color que prefieras */
+  color: white;
+}
+
+.btn-main {
+  background-color: #D9E8EE; /* Cambia este valor al color que prefieras */
+  color: white;
+}
+
+.btn-salir {
+  background-color: #f75f5f; /* Cambia este valor al color que prefieras */
+  color: white;
+}
+
+.btn-salirD {
+  background-color: #ffd17b; /* Cambia este valor al color que prefieras */
+  color: white;
+}
+
+#what-we-do {
+  background-image: url('/public/background.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 130vh; /* O cualquier altura que desees para la sección */
+}
+
+.fixed-navbar {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.visible {
+  transition: top 0.3s ease-in-out;
+  top: 0;
+}
+
+.hidden {
+  transition: top 0.3s ease-in-out;
+  top: -100px; /* altura de la navbar */
+}
+
+/*  */
